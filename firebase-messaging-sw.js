@@ -3,12 +3,12 @@ importScripts("https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js");
 
 // Initialize the Firebase app in the service worker
 firebase.initializeApp({
-    apiKey: "AIzaSyAJ24k5Kvwiql9DPuyKNIgiYQJSw-APtEw",
+    apiKey: "afaf-APtEw",
     authDomain: "shebirth-a6b81.firebaseapp.com",
     projectId: "shebirth-a6b81",
     storageBucket: "shebirth-a6b81.appspot.com",
     messagingSenderId: "618971653295",
-    appId: "1:618971653295:web:320506b76c2d0ff004a05a",
+    appId: "1:412124:web:1424124122",
     measurementId: "G-NFXSJBY1SM"
 
 });
