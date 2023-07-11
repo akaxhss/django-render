@@ -2,6 +2,7 @@ import os
 from decouple import config
 from pathlib import Path
 from corsheaders.defaults import default_headers
+import dj_database_url
 
 # from rest_framework_api_key.permissions import BaseHasAPIKey
 
