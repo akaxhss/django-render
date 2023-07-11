@@ -108,16 +108,19 @@ if DB:
         }
     }
 else:
-    DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'itsnew', # myproject
-        'USER': 'postgres', # myprojectuser
-        'PASSWORD': '', # password
-        'HOST': 'localhost',
-        'PORT': '5435', #5432
+    DATABASES ={
+        'default': dj_database_url.parse('postgres://shebirthrender_user:8Y6OGg4OyH5KPjp9OdcsZJRuZyDlAtMf@dpg-cimhao6nqqldjqlicqqg-a.oregon-postgres.render.com/shebirthrender')
     }
-}
+#     DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'itsnew', # myproject
+#         'USER': 'postgres', # myprojectuser
+#         'PASSWORD': '', # password
+#         'HOST': 'localhost',
+#         'PORT': '5435', #5432
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
