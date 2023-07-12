@@ -112,28 +112,27 @@ else:
     # DATABASES ={
     #     'default': dj_database_url.parse('postgres://shebirthrender_user:8Y6OGg4OyH5KPjp9OdcsZJRuZyDlAtMf@dpg-cimhao6nqqldjqlicqqg-a.oregon-postgres.render.com/shebirthrender')
     # }
-    DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'itsnew', # myproject
-        'USER': 'postgres', # myprojectuser
-        'PASSWORD': '', # password
-        'HOST': 'localhost',
-        'PORT': '5435', #5432
-    }
-}
-
-# DATABASES = {
+#     DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'shebirth2', #  myproject
+#         'NAME': 'itsnew', # myproject
 #         'USER': 'postgres', # myprojectuser
-#         'PASSWORD': '0480', # password
+#         'PASSWORD': '', # password
 #         'HOST': 'localhost',
-#         'PORT': '5432', #5432
+#         'PORT': '5435', #5432
 #     }
 # }
 
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'defaultdb', # myproject
+        'USER': 'avnadmin', # myprojectuser
+        'PASSWORD': 'AVNS_VB1SSWpcBadHW2vlkBb', # password
+        'HOST': 'pg-shebirth-satheeshakash07.aivencloud.com',
+        'PORT': '17230', #5432
+    }
+}
 
 import dj_database_url
 
